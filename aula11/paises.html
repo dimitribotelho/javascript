@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>limite de velocidade</title>
+</head>
+<body>
+    <h1>sistema de velocidade</h1>1
+    velocidade do vrum vrum:<input type="number" name="velo" id="velo"> km/h
+    <input type="button" value="verficar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+      function calcular() {
+        var ve= window.document.getElementById("velo")
+        var re= window.document.getElementById("res")
+        var vel= Number(ve.value)
+        re.innerHTML="<p> sua velociade atual e de "+ vel+ " km/h </p>"
+        if (vel>60) {
+            res.innerHTML +="calmo verstappen, voce esta achando que em quem pra correr desse jeito animal"
+        }else {
+            res.innerHTML +="a sua velociade esta mesma do carro da ferrari, entao vc ta lento"
+        }
+        res.innerHTML +="<p>dirija sempre com cinto de segurança</p>"
+      }  
+        
+    </script>
+</body>
+</html>

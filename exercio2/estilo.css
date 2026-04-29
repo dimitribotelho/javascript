@@ -1,0 +1,40 @@
+body {
+    background: rgb(78, 78, 239);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.693);
+}
+
+#res {
+    text-align: center;
+    margin-top: 15px;
+}
+
+input {
+    margin: 5px;
+}
+
+input[type="button"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: normal 10pt Arial;
+}
