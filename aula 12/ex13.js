@@ -8,4 +8,4 @@ if(relogio<12 && relogio >6) {
     console.log("boa noite, sera que vai ter gol do ryan hoje")
 } else if (relogio<6) {
     console.log("boa madrugada")
-}    
+}   
