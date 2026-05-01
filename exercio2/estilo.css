@@ -32,6 +32,14 @@ input[type="button"] {
     border: none;
     cursor: pointer;
 }
+#foto {
+    display: block;
+    margin: 15px auto;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 footer {
     color: white;
