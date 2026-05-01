@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutiplicaçao</title>
+</head>
+<body>
+    <h1>Mutiplicador simples</h1>
+    <input type="number" name="mut1" id="mut1"> ×
+    <input type="number" name="mut2" id="mut2">
+    <input type="button" value="mutiplique" onclick="vezes()">
+    <div id="res">seu resultado ficara aqui</div>
+    <script>
+        function vezes() {
+            var v1 = window.document.getElementById('mut1')
+            var v2 = window.document.getElementById('mut2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(v1.value)
+            var n2 = Number(v2.value)
+            var v = n1 * n2
+            res.innerText = "a mutiplicaçao entre "+ n1 +" e "+ n2 +" resulta em "+ v
+        }
+    </script>
+</body>
+</html>

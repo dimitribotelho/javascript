@@ -1,35 +1,26 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>subtraçao</title>
+    <title>Divisao</title>
 </head>
 <body>
-  <h1>bem vindo ao divisor </h1>
-  <input type="number" name="nu1" id="nu1" >
-  <input type="number" name="nu2" id="nu2">
-  <input type="button" value="clique para saber o resultado" onclick="menos()"> 
-  <div id="res">resultado da sua conta ficara aqui!</div> 
-  <script>
-    function menos() {
-   var me1= window.document.getElementById("men1")
-   var me2= window.document.getElementById("men2")
-   var res= window.document.getElementById("res")
-   var m1= Number(men1.value)
-   var m2= Number(men2.value)
-   var r= m1-m2
-   res.innerHTML="a subtraçao entre "+ m1 + " menos "+ m2 +" resulta em "+ r
-
-
-
-   }
-
-
-
-
-  </script>
-
-
+    <h1>Divisor Simples</h1>
+    <input type="number" name="div1" id="div1"> ÷
+    <input type="number" name="div2" id="div2">
+    <input type="button" value="dividir" onclick="dividir()">
+    <div id="res">seu resultado ficara aqui</div>
+    <script>
+        function dividir() {
+            var d1 = window.document.getElementById('div1')
+            var d2 = window.document.getElementById('div2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(d1.value)
+            var n2 = Number(d2.value)
+            var d = n1 / n2
+            res.innerText = "a divisao entre "+ n1 +" e "+ n2 +" resulta em "+ d
+        }
+    </script>
 </body>
 </html>
